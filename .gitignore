@@ -1,0 +1,36 @@
+# Dependencies and caches
+/node_modules/
+/.pnpm-store/
+/.next/
+/.turbo/
+
+# Generated files and build output
+/out/
+/dist/
+/next-env.d.ts
+*.tsbuildinfo
+
+# Test artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.vercel/
+
+# Personal training exports
+/mindgym-*.json
+/backups/
+
+# Logs and editor state
+*.log
+.DS_Store
+.idea/
+*.swp
+*.swo
